@@ -41,18 +41,18 @@ function Home() {
             <h1 className="font-serif text-5xl leading-[1.05] tracking-tight md:text-7xl">
               <span className="italic text-primary">Habitarte</span>
             </h1>
-            <p className="mt-8 max-w-md text-base leading-relaxed text-muted-foreground">
+            <p className="mt-8 max-w-md text-base leading-relaxed text-muted-foreground text-justify">
               No siempre puedes cambiar lo que estás viviendo, pero sí puedes cambiar la manera en que lo atraviesas. 
 
-
-
-              HABITARTE es un espacio de educación y desarrollo personal para mujeres que atraviesan distintas etapas, cambios y circunstancias de la vida, y quieren aprender a no abandonarse en el proceso.
+            </p>
+               <p className="mt-8 max-w-md text-base leading-relaxed text-muted-foreground text-justify">
+             HABITARTE es un espacio de psicoeducación y desarrollo personal para mujeres que atraviesan distintas etapas, cambios y circunstancias de la vida, y quieren aprender a no abandonarse en el proceso.
 
             </p>
             <blockquote className="mt-8 border-l-2 border-accent pl-5 font-serif text-lg italic text-foreground/80">
-              «Siempre se puede ser y estar mejor.»
-              <span className="mt-1 block text-xs not-italic tracking-widest text-muted-foreground">
-                — KAIZEN
+              Siempre se puede ser y estar mejor.
+              <span className="mt-1 block text-xs not-italic tracking-widest text-muted-foreground text justify">
+                — KAIZEN ❤️
               </span>
             </blockquote>
             <div className="mt-10 flex flex-wrap gap-4">
@@ -60,7 +60,7 @@ function Home() {
                 to="/agenda"
                 className="rounded-full bg-primary px-7 py-3.5 text-sm text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
               >
-                Agenda tu acompañamiento
+                Conoce Habitarte
               </Link>
               <Link
                 to="/servicios"
@@ -93,8 +93,8 @@ function Home() {
             <p className="text-xs uppercase tracking-[0.25em] text-primary">
               Sobre mí
             </p>
-            <h2 className="mt-4 font-serif text-3xl md:text-4xl">
-              Habitarse es el camino <span className="italic">más real</span>.
+            <h2 className="mt-4 font-serif text-3xl md:text-4xl text justify">
+              Habitarte <span className="italic"></span>.
             </h2>
             <p className="mt-6 leading-relaxed text-foreground/80">
               Trabajo con mujeres, jóvenes y personas que sienten que hay algo
